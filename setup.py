@@ -19,7 +19,7 @@ project_name = 'spark-architecture-demo'
 module_name = project_name
 regex_found_badges = re.compile('^.. start-badges.*^.. end-badges', re.M | re.S)
 dependencies = [
-    'pyspark==2.4.5',
+    'pyspark==3.2.2',
     'pyarrow==0.11.1'
 ]
 
