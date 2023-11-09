@@ -20,7 +20,7 @@ module_name = project_name
 regex_found_badges = re.compile('^.. start-badges.*^.. end-badges', re.M | re.S)
 dependencies = [
     'pyspark==2.4.5',
-    'pyarrow==0.11.1'
+    'pyarrow==14.0.1'
 ]
 
 setup(
